@@ -5,6 +5,7 @@ fn(a, b, sum);
 fn(a, b, multiply);
 fn(a, b, divide);
 fn(a, b, substract);
+fn(a, b, test);
 
 /** 高階関数 **/
 function fn(a, b, callback) {
@@ -32,6 +33,9 @@ function substract(a, b) {
     return a - b;
 }
 
+function test(a, b) {
+    return a + 5 * b + a + 1111;
+}
 
 
 
